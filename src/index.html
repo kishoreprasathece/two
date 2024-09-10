@@ -11,36 +11,46 @@
 </head>
 <body >
    
-    <section class="bg-gradient-to-r from-vioo to via-vio" >
+    <section class="bg-gradient-to-r from-vioo to via-vio w-auto h-96 " >
     
-        <div class=" bg-white w-auto h-16 flex justify-between font-rig text-black py-4  " >
-               <img class="w-auto h-12 mx-6" src="image/Askmeidentity 2.png".png">
-               <div class="flex flex-wrap justify-items-center space-x-10" >
-               <p >home</p>
+              <nav class="flex p-4 space-x-24 font-rig bg-white" >
+                <div>
+            <img class="w-auto  h-16 grow-0 mx-6" src="image/Askmeidentity 2.png".png">
+        </div>
+        <div class="flex grow space-x-8 p-4 justify-end font-rig" >
+               <p  >home</p>
                 <p>about</p>
                 <p>course</p>
                 <p>contact</p>
-                <div>
+            </div>
+<div class=" flex shrink  ">
                 <a  href="#"> <img src="image/search1.png"  ></a>
-            </div>
-            </div>
-            <div class="justify-items-start" >
+</div>
+<div class="flex shrink space-x-6 " >
                <p>login</p>
                 <button class="bg-violet-500 hover:bg-green-500 text-white w-14 h-8  " ><p >signup</p></button>
             </div>
-        </div>
-            <div class="flex-col w-auto h-72  " >
-            <h1 >Good Coaching is Good Teaching & Nothing Else</h1>
-            <p >In a coaching role, you ask the questions and rely more on your staff, who become the experts, to provide the information.</p>
+            </div>
+            </nav>
+            <div  >
+                <div class="grid grid-cols-3" >
+                <div>
+                    <p class="m-10 font-rig" >Successful coaches are visionaries </p>  
+            <h1 class="font-rig text-6xl line-clamp-3 m-10" >Good Coaching is Good Teaching & Nothing Else</h1>
+           
                 <a href="#">View Courses</a>
                 <a href="#">Get Free Consultation</a>
-          
-          
                 <input type="text" placeholder="What do you want to learn today?"> <button>Search</button>
-               
-            
+            </div>
+            <div>
+                <p> a coaching role, you ask the questions and rely more on your 
+                    staff, who become the experts, to provide the information.</p>
+            </div>
+            <div>
+                <img class="w-48 h-48 " src="image/women.png">
+            </div>
         </div>
-    <div class="w-auto h-8 flex justify-evenly border-black" >
+      <div class="flex justify-evenly w-auto h-10 " >
         <img src="image/spotif.png.png" alt="Spotify">
         <img src="image/amazon.png.png" alt="Amazon">
         <img src="image/spotif.png.png" alt="Spotify">
@@ -49,6 +59,8 @@
         <img src="image/amazon.png.png" alt="Amazon">
     </div>
 </section>
+
+<section>
 <main class="bg-vio flex-grow px-20 py-12 "  >
         <div class="py-16" >
             <h2 class="font-rig text-center text-3xl" >Featured <span class="text-blue-500" >Course</span></h2>
@@ -113,6 +125,7 @@
             </div>
         </div>
    </main>
+</section>
    <div>
     <p href="#" >Explore Courses</p>
 </div>
@@ -194,9 +207,10 @@
                 </div>
             </div>
         </section >
-            <h2>Subscribe For Get Update Every New Courses</h2>
-            <p>20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
-            <form>
+        <section class="flex flex-wrap bg-orange-100">
+            <h2 class="basis-3/4">Subscribe For Get Update Every New Courses</h2>
+            <p class="basis-3/4" >20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+            <form class="basis-1/4" >
                 <input type="email" placeholder="Enter your email" required>
                 <button type="submit">Subscribe</button>
             </form>
