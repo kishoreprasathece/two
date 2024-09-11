@@ -4,10 +4,16 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-vio:"#0E409E",
-vioo:"#7F56D9",
-vvt:"#6E53D0",
-vvf:"D9ECFF",
+        feature:"#D9ECFF",
+        courses:"#739FE8",
+        coursesl:"#4F18CA",
+        coursesv:"#931BBD",
+        coursesb:"#304016C",
+        coursesvv:"#4A16BD",
+        coursest:"#04016C",
+        coub:"#477AE3",
+        coubd:"#04016C"
+        
 
       },
       fontFamily:{
