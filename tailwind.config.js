@@ -12,7 +12,8 @@ module.exports = {
         coursesvv:"#4A16BD",
         coursest:"#04016C",
         coub:"#477AE3",
-        coubd:"#04016C"
+        coubd:"#04016C",
+        coun:"#739FE8"
         
 
       },
